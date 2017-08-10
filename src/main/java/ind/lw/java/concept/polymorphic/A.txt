@@ -1,0 +1,18 @@
+Compiled from "A.java"
+public class ind.lw.java.concept.polymorphic.A {
+  public ind.lw.java.concept.polymorphic.A();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public java.lang.String show(ind.lw.java.concept.polymorphic.D);
+    Code:
+       0: ldc           #2                  // String A.D
+       2: areturn
+
+  public java.lang.String show(ind.lw.java.concept.polymorphic.A);
+    Code:
+       0: ldc           #3                  // String A.A
+       2: areturn
+}
