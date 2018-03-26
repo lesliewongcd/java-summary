@@ -5,7 +5,7 @@ import java.util.concurrent.CyclicBarrier;
 /**
  * Created by wang.zhe8 on 2018/3/26.
  */
-public class Test {
+public class ReentrantLockTest {
 
     public static void main(String[] args) {
 

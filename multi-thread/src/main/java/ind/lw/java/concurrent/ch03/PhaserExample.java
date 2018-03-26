@@ -1,4 +1,4 @@
-package ind.lw.java.thread.ch03;
+package ind.lw.java.concurrent.ch03;
 
 import java.util.concurrent.TimeUnit;
 

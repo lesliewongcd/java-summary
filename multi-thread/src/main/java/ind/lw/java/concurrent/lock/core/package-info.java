@@ -1,7 +1,7 @@
 /**
  * Created by wang.zhe8 on 2018/3/26.
  */
-package ind.lw.java.concurrent.ch04;
+package ind.lw.java.concurrent.lock.core;
 
 
 

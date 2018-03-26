@@ -1,4 +1,4 @@
-package ind.lw.java.thread.ch01;
+package ind.lw.java.concurrent.ch01;
 
 
 import java.util.concurrent.CountDownLatch;
@@ -56,7 +56,7 @@ public class CountDownLatchExample {
         @Override
         protected void doWork() {
             try {
-                Thread.sleep(5000);
+                Thread.sleep(5*60000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -86,7 +86,7 @@ public class CountDownLatchExample {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Test start ");
+        System.out.println("ReentrantLockTest start ");
         startLatch.countDown();
         try {
             System.out.println("Wait for all sub-thread finishing");

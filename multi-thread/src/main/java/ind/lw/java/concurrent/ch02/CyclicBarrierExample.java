@@ -1,4 +1,4 @@
-package ind.lw.java.thread.ch02;
+package ind.lw.java.concurrent.ch02;
 
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
